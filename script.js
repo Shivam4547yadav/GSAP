@@ -1,0 +1,21 @@
+gsap.to("#box",{
+    x:1200,
+    duration:5,
+    delay:1, 
+    rotate:360,
+    backgroundColor:"blue"
+})
+gsap.from("#box2",{
+    x:1200,
+    duration:5,
+    delay:1, 
+    rotate:360,
+    backgroundColor:"pink"
+})
+gsap.from("h1",{
+    opacity:0,
+    duration:1,
+    y:30,
+    delay:2,
+    stagger:2.5
+})

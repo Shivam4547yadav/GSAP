@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#box{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 64, 0);
+    border-radius: 50%;
+}
+#box2{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(64, 255, 0);
+    border-radius: 50%;
+}
+h1{
+    opacity: 10;
+    color: rgb(132, 121, 101);
+}
